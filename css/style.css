@@ -1,0 +1,75 @@
+
+.section-padding{
+  padding: 80px 0;
+}
+.section-title{
+  margin-bottom: 60px;
+  text-align: center;
+}
+.section-title h2{
+  position: relative;
+  z-index: 1;
+  padding-bottom: 15px;
+  margin-bottom: 20px;
+}
+.section-title h2::before{
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  width: 70px;
+  height: 5px;
+  background: blueviolet;
+  content: "";
+  margin-left: -30px;
+}
+.section-title h2::after{
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  width: 30px;
+  height: 5px;
+  background: yellow;
+  content: "";
+  margin-left: -10px;
+}
+
+.section-services-icon{
+  text-align: center;
+  display: block;
+  color: #333;
+  min-height: 200px;
+  margin-bottom: 30px;
+
+  background-color: pink;
+  border-radius: 50px 20px;
+}
+a.section-services-icon{
+  text-decoration: none;
+  padding: 5px;
+}
+
+.section-services-icon:hover{
+  box-shadow: 20px 20px 50px 10px rgb(252, 170, 184) inset;
+  border-radius: 50px 20px;
+}
+.section-services-icon h3{
+  margin: 10px 0;
+  font-size: 22px;
+}
+.service-icon-table-cell img{
+  height: 80px;
+  width: 80px;
+  border-radius: 100%;
+}
+a.section-services-icon h3 {
+  color: #333;
+}
+.service-icon-container {
+  display: table;
+  width: 100%;
+  height: 110px;
+}
+.service-icon-table-cell {
+  display: table-cell;
+  vertical-align: middle;
+}
